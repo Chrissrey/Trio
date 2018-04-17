@@ -25,19 +25,19 @@ int main()
 }
   void greatestToLeast(int&Red,int&Green,int&Blue)
   {
-    if(Red>Green)
+    if(Red<Green)
     {
         int tmp=Red;
         Red=Green;
         Green=tmp;
     }
-    if(Red>Blue)
+    if(Red<Blue)
     {
         int tmp=Red;
         Red=Blue;
         Blue=tmp;
     }
-    if(Green>Blue)
+    if(Green<Blue)
     {
         int tmp=Green;
         Green=Blue;
